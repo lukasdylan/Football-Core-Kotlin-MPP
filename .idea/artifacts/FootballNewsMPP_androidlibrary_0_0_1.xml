@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FootballNewsMPP-androidlibrary-0.0.1">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="FootballNewsMPP-androidlibrary-0.0.1.jar" />
+  </artifact>
+</component>

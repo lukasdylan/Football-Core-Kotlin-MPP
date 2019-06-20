@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/androidMain/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/androidMain/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/androidMain/main/assets" />
+        <option name="PROJECT_TYPE" value="1" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false" isTestModule="false" externalProjectId="FootballNewsMPP">
+        <sourceSets>
+          <sourceSet>FootballNewsMPP_commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xuse-experimental=-Xuse-experimental=kotlin.Experimental,kotlin.experimental.ExperimentalTypeInference" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-json-jvm/1.1.4/18bf94856b992224fa5d05ac3ccb6abe8d8eb51e/ktor-client-json-jvm-1.1.4.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-logging-jvm/1.1.4/f3c5d26a8885af98fa35e77bd8fd7f7e1d9e67fe/ktor-client-logging-jvm-1.1.4.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/529d4775371185582a092ef10264ae36/jetified-kotlinx-coroutines-android-1.1.1-eap13-125.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client/1.1.4/21bb87faf94638f13e4d541cb9165dd3561fecd5/ktor-client-1.1.4.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core-jvm/1.1.4/da1baf7870275678e2ad474c66ed91500d4e6069/ktor-client-core-jvm-1.1.4.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-network/1.1.4/221a3ebf3c6537a6b30e9ad34ccb061ea7d0939e/ktor-network-1.1.4.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.1.4/52c55b2f380da81d850035388956cfc5ea1f0617/ktor-http-jvm-1.1.4.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.1.4/858cc6e1093e14a4ede92e13e75ac9a77b1c0f1a/ktor-utils-jvm-1.1.4.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io-jvm/0.1.8/591b0489ce565c32d4874610ef64c948e6a5c627/kotlinx-coroutines-io-jvm-0.1.8.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.2.0/80e0ae6fac48a78bfad45ae3e23117df82f8aaf8/kotlinx-coroutines-jdk8-1.2.0.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.2.0/934716ae1a5a09db4420e63679d097a523b24e43/kotlinx-coroutines-core-1.2.0.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.31/721b62ccbafe51a284ca0d1c5dcfdce8cedd4255/kotlin-android-extensions-runtime-1.3.31.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime/0.11.0/76cc88b4aa3f91ee2eb657fda3e05c8bb449678d/kotlinx-serialization-runtime-0.11.0.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/b3595abc2cf6ce47274ae51f39f11327/jetified-kotlin-reflect-1.3.30.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-jvm/0.1.8/595d4772d0600272bac6a2dcec2646b037285863/kotlinx-io-jvm-0.1.8.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.3.30/459999be0d6ac844dd3d2ca85c2daf14deb5f7f0/kotlin-stdlib-jdk8-1.3.30.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.30/bf0edcf669e446e0d903a0681190d1e3df969ac4/kotlin-stdlib-jdk7-1.3.30.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/020ed1721b41f503a3f24d4d06462f05/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/8948d73b723925732d80ee060ca4e37f/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/aaec5f970010ba92adbc55355fcab0cf/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/49e14c5eaf02c7e0fdeb5f9dc3803c32/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/6718856a0aea98e62b6de38ffe7aeabf/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/8d917cb8f57f9ba0517bfc1f62472671/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/d09eb0c45bdd3398924b7611b7379347/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/d5d70ff2a88b3d2daf7a084e6ebefc63/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/59cb4f5508649c7e5d4a80df11d6bb02/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/9e02c36e470190104a6ee4f321b44cd6/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/2acadbe98a8c1842d66f811ba568341c/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/736df4918dfcb8da1dd30d441346cd63/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/1e12ab1df8cb6950d05c9bff8d32bc95/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/4cdd8f63e1fa538a9c5f287ff164a816/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/6d0a9f6dd4be153ae5986197f73dd22c/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/05ca5c345890bc73e665559bb7c04154/jars/classes.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-json/1.1.4/9b4a44076892d6f3641bab37340b1074328db79c/ktor-client-json-1.1.4.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-logging/1.1.4/17d470de1f4cce4417e2fc68c21f954f30397e25/ktor-client-logging-1.1.4.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-client-core/1.1.4/1d947b26b3498992519fbffbc373a54e2fb217b8/ktor-client-core-1.1.4.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http/1.1.4/44c4b36cffc100844bb707143f8f10087201d187/ktor-http-1.1.4.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils/1.1.4/bf2a67008f8ac47b482eb6857374304660136605/ktor-utils-1.1.4.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-io/0.1.8/ab4c5ab04fe13e78ab0d55d71909b22b6f52f658/kotlinx-coroutines-io-0.1.8.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-common/1.2.0/ecfffae5e39ddda7c27c34b801617ec458b0e6f0/kotlinx-coroutines-core-common-1.2.0.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-runtime-common/0.11.0/29737222e88a4b991be3989b9ef921a28745524a/kotlinx-serialization-runtime-common-0.11.0.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io/0.1.8/59bcca58d0dae17790c96a775664267ff8492356/kotlinx-io-0.1.8.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu/0.12.3/16896c746f44e8862b26cd139027580e65d36343/atomicfu-0.12.3.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.3.1/2cf7a6cc79732e3bdf1647d7404279900ca63eb0/config-1.3.1.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.12.3/b09ed1e1b1a0996e0a3b6c454797d44788a21747/atomicfu-common-0.12.3.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/56ac1b98c5bc99f629f893961d924874/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/81b2c709aef25cf6d61cb3ce1e97da91/jars/classes.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/092e9043776fc890748a2f910e0244e4/jars/classes.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/d8192bd20689cbf530841d7fa3f81221/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/1502e3761d5b3610d4986307898bc8a3/jars/classes.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/a48ca6ee3701c37244d7641b76d30e2c/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/8f098a207d331cc8182318598c982c61/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/fe03f35c0260cd3e9c6c4b73e68d1759/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/14cfdaee2fdfdcb3872c3f641353fbc2/jars/classes.jar:/Users/ovo/.gradle/caches/transforms-2/files-2.1/f47a5a0ff2afbb00453d3f1029a15bc0/jars/classes.jar:/Users/ovo/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar:/Users/ovo/Downloads/FootballNewsMPP/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar:/Users/ovo/Library/Android/sdk/platforms/android-28/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="FootballNewsMPP_debug" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.31/57bdeb88c9265052448a7a8422ed64ad92e9b262/kotlin-android-extensions-1.3.31.jar" />
+              <option value="$KOTLIN_BUNDLED$/lib/kotlinx-serialization-compiler-plugin.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>

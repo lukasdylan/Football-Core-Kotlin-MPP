@@ -1,0 +1,4 @@
+rootProject.name = 'FootballNewsMPP'
+
+
+enableFeaturePreview('GRADLE_METADATA')
